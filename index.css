@@ -1,0 +1,129 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0% 0%;
+}
+footer{
+    background-color: #F9E7DC;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.block{
+    border: 0%;
+    margin: 3% 5%;
+    padding: .5% 1%;
+    border-radius: 15px;
+    width: 8em;
+    color: #fff;
+    text-align: center; 
+}
+
+#firstBlock{
+    background-color:#FF764E;
+    margin-left: 20%;
+}
+
+#secondBlock{
+    background-color: #5ED3EB;
+}
+
+#thirdBlock{
+    background-color: #FFCD69;
+    word-spacing: 8000px;
+    margin-right: 20%;
+}
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+#fourthBlock{
+    background-color:#FF764E;
+    margin-left: 20%;
+}
+
+#fifthBlock{
+    background-color: #5ED3EB;
+}
+
+#sixthBlock{
+    background-color: #FFCD69;
+    word-spacing: 8000px;
+    margin-right: 20%;
+}
+#topPicture{
+    max-width: 25%;
+    max-height: 25%;
+    border-radius: 50%;
+    margin-left: 10%;
+    float: left;
+}
+.mainHeader {
+    float: right;
+    text-align: center;
+    padding-left: 35%;
+    margin-right: 0%;
+    justify-content: flex-start;
+    position: absolute;
+}
+#yosemite{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3em;
+    margin-top: auto;
+}
+.mainHeader h2{
+    font-size: 1em;
+    padding: 2%;
+    font-weight: normal;
+}
+.mainHeader h3{
+    font-size: 1em;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: normal;
+}
+
+
+
+.bannerText{
+    background-color: rgb(212, 159, 141);
+    color: #fff;
+    margin: 25% 0% 0%  0%;
+    text-align: center;
+    padding: 1em;
+    height: 8em;   
+}
+#firstGraphic{
+    height: 8em;
+    width: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#secondGraphic{
+    height: 8em;
+    width: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post{
+    margin-right: 38%;
+    margin-left: 38%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+#bottomPicture{
+    height: 15em;
+    width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+

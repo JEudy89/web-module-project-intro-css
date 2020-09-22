@@ -1,23 +1,33 @@
 <!-- Markup the content below with tags and attributes such that it can be styled in CSS-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head <link href="C:\Users\jeudy\AppData\Roaming\Microsoft\Windows\Network Shortcuts\Chelsea_Market\ChelseaMarket-Regular.ttf" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  >
 <!-- Link your CSS stylesheet -->
     <link rel="stylesheet" href="index.css"/>
 </head>
 <body>
-  <header>
-    <!--no idea what to do with this little part or the same lines down in the footer. I'm
-    not sure how I need to prepare them to manipulate them with css like the example-->
+  <nav id="topNavBar">
+    <div class="flex-container">
+      <div class="block" id="firstBlock">
         Plan your Visit
+      </div>
+      <div class="block" id="secondBlock">
         Learn about the Park
+      </div>
+      <div class="block" id="thirdBlock">
         Get Involved
-  </header>
+      </div>
+    </div>
+  </nav>
+  
     <div>
       <figure>
         <img src="header_img.jpg" alt="Picture of Yosemite Park" id="topPicture">
       </figure>
-       <h1>Yosemite Park Guide</h1>
+    </div>
+    <div class="mainHeader">
+       <h1 id="yosemite">Yosemite Park Guide</h1>
       <h2>Come explore California’s beautiful wilderness.</h2>
       <h3>Always open. Reservations are not available or required to enter the park.</h3>
     </div>
@@ -38,24 +48,34 @@
       </figure>
         <article class="post"> <p>Fire is a natural and essential part of Yosemite. We manage fire carefully 
       and study how it interacts with the park’s ecosystems. This blog provides 
-      updates about fires in Yosemite. Check for current fire restrictions.</p>
+      updates about fires in Yosemite. Check for <b>current fire restrictions</b>.</p>
         </article>
       <figure>
         <img src="https://image.flaticon.com/icons/svg/820/820374.svg" alt="A camper graphic" id="secondGraphic">
       </figure>
         <article class="post"><p>We strongly recommend that you make reservations for lodging, camping, 
-      and backpacking. You can pay the park entrance fee upon arrival 
+      and backpacking. You can pay the <b>park entrance fee</b> upon arrival 
       (there's no need to pay it in advance).</p>
         </article>
     </div>
+    
         <figure>
           <img src="footer_img.jpg" alt="Picture of Yosemite landscape" id="bottomPicture">
         </figure>
-      <footer>
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-      </footer>
-
+        <footer>
+          <div class="flex-container2">
+            <nav id="bottomNavBar">
+              <div class="block" id="fourthBlock">
+                Plan your Visit
+              </div>
+              <div class="block" id="fifthBlock">
+                Learn about the Park
+              </div>
+              <div class="block" id="sixthBlock">
+                Get Involved
+              </div>
+            </nav>
+          </div>
+        </footer>
 </body>
 </html>
